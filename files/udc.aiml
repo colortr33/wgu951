@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+  
+  
+  <category>
+      <pattern>*</pattern>
+      <template>Hello, can I help you pick a computer science career?</template>
+  </category>
+  
+
+    <category>
+      <pattern>yes</pattern>
+      <that>hello, can I help you pick a computer science career</that>
+      <template>Are you more interested in software, hardware, or neither</template>
+  </category>
+  
+      <category>
+      <pattern>neither</pattern>
+      <that>Are you more interested in software, hardware, or neither</that>
+      <template>
+          <link> 
+<text>Based on your responses, a career as a Penetration Tester might be a good fit for you. See the link for more details.</text> 
+<url>https://www.thecareerproject.org/job-title/penetration-tester/</url> 
+</link> 
+      </template>
+      </category>
+      
+      <category>
+      <pattern>software</pattern>
+      <that>Are you more interested in software, hardware, or neither</that>
+      <template>Are you more interested in designing or maintaining software</template>
+      </category>
+  
+         <category>
+         <pattern>designing</pattern>
+         <that>Are you more interested in designing or maintaining software</that>
+         <template>
+             <link> 
+<text>Based on your responses, a career as a Software Engineer might be a good fit for you. Click this text for more details.</text> 
+<url>https://resources.workable.com/software-engineer-job-description#:~:text=A%20Software%20Engineer%20is%20an,ongoing%20problems%20for%20an%20organization</url> 
+</link> 
+             </template>
+         </category>
+  
+        <category>
+        <pattern>maintaining</pattern>
+        <that>Are you more interested in designing or maintaining software</that>
+        <template>
+            <link> 
+<text>Based on your responses, a career as a Software Tester might be a good fit for you. Click this text for more details.</text> 
+<url>https://www.talentlyft.com/en/resources/software-tester-job-description#:~:text=Software%20Testers%20are%20responsible%20for,risk%20and%20prevent%20software%20issues</url> 
+</link> 
+</template>
+        </category>
+
+        <category>
+        <pattern>neither</pattern>
+        <that>Are you more interested in designing or maintaining software</that>
+        <template>
+            <link> 
+<text>Based on your responses, a career as a Embedded Systems Engineer might be a good fit for you. Click this text for more details.</text> 
+<url>https://resources.workable.com/embedded-software-engineer-job-description</url> 
+</link> 
+        </template>
+        </category>
+        
+      <category>
+      <pattern>hardware</pattern>
+      <that>Are you more interested in software, hardware, or neither</that>
+      <template>Are you more interested in robotics, servers, or neither</template>
+      </category>
+         
+        <category>
+        <pattern>robotics</pattern>
+        <that>Are you more interested in robotics, servers, or neither</that>
+        <template>
+            <link> 
+<text>Based on your responses, a career as a Embedded Systems Engineer might be a good fit for you. Click this text for more details.</text> 
+<url>https://resources.workable.com/embedded-software-engineer-job-description</url> 
+</link> 
+        </template>
+        </category>
+  
+        <category>
+        <pattern>servers</pattern>
+        <that>Are you more interested in robotics, servers, or neither</that>
+        <template>
+                        <link> 
+<text>Based on your responses, a career as a Database Administrator might be a good fit for you. Click this text for more details.</text> 
+<url>https://www.betterteam.com/database-administrator-job-description</url> 
+</link> 
+        </template>
+        </category>
+
+        <category>
+        <pattern>neither</pattern>
+        <that>Are you more interested in robotics, servers, or neither</that>
+        <template>
+ <link> 
+<text>Based on your responses, a career as a Penetration Tester might be a good fit for you. See the link for more details.</text> 
+<url>https://www.thecareerproject.org/job-title/penetration-tester/</url> 
+</link>
+        </template>
+        </category>
+   <category>
+      <pattern>software</pattern>
+      <that>Are you more interested in software, hardware, or neither</that>
+      <template>Are you more interested in designing or maintaining software</template>
+  </category>
+  
+     <category>
+      <pattern>software</pattern>
+      <that>Are you more interested in software, hardware, or neither</that>
+      <template>Are you more interested in designing or maintaining software</template>
+  </category>
+  
+     
+  
+</aiml>
